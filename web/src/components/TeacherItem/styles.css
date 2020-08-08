@@ -61,7 +61,7 @@
   display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer a {
   width: 20rem;
   height: 5.6rem;
   background-color: var(--color-secundary);
@@ -74,19 +74,14 @@
   align-items: center;
   justify-content: space-evenly;
   transition: 0.4s;
+  text-decoration: none;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer a:hover {
   background-color: var(--color-secundary-dark);
 }
 
 @media (min-width: 700px) {
-  #page-teacher-list main {
-    padding: 3.2rem 0;
-    max-width: 740px;
-    margin: 0 auto;
-  }
-
   .teacher-item header,
   .teacher-item footer {
     padding: 3.2rem;
